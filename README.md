@@ -1,18 +1,14 @@
 # Perceptron Bipolar - McCulloch-Pitts
 
-Projeto de Inteligência Artificial que implementa um Perceptron com função de ativação bipolar, inspirado no modelo de McCulloch-Pitts.
+Este projeto implementa um neurônio Perceptron com função de ativação **bipolar**, baseado no modelo de McCulloch e Pitts, como parte da disciplina de Inteligência Artificial.
 
-## Como funciona
+## 📄 Sobre
 
-- Lê um dataset (`data.csv` ou `data.txt`)
-- Usa 2/3 dos dados para treinamento e 1/3 para teste
-- Aplica a função de ativação bipolar
-- Calcula a acurácia do modelo
+O sistema é treinado com 2/3 dos dados de um arquivo e testado com os 1/3 restantes. A acurácia é calculada com base na quantidade de acertos durante a fase de teste.
 
-## Execução
+## 🧠 Funcionalidades
 
-1. Certifique-se de ter Python instalado
-2. Coloque o dataset na pasta do projeto
-3. Execute com:
-   ```bash
-   python main.py
+- Leitura de dataset
+- Treinamento do perceptron
+- Função de ativação bipolar
+- Cálculo de acurácia
